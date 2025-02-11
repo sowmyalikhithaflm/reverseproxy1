@@ -1,0 +1,11 @@
+---
+version: "3"
+services:
+  bank:
+    build: ./bank
+    port:
+      - 1234:80
+  mobile:
+     build: ./mobile
+     port:
+       - 2222:80
